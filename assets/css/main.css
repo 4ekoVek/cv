@@ -9,7 +9,7 @@ a {
     text-decoration: none;
 }
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -18,11 +18,13 @@ a {
 }
 .header {
     padding: 19px 0;
+    background-color: #217074;
    
 }
 .header__wrapper {
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 15px;
 }
 .header__nav {
     display: flex;
@@ -30,4 +32,14 @@ a {
 .header__nav-menu {
     display: flex;
     align-items: center;
+}
+.header__menu-link {
+    padding: 15px;
+    align-items: center;
+    margin-left: 83px;
+    color: #E7EAEF;
+}
+.header__photo{
+    max-width: 200px;
+    padding-left: 15px;
 }
